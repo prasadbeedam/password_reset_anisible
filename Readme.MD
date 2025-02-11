@@ -30,11 +30,13 @@ yum install python python-pip python-level -y
 vim /etc/ansible/hosts
 
 [dev]
+
 172.31.86.81
 
 172.31.82.63
 
 [test]
+
 172.31.95.156
 
 172.31.83.100
