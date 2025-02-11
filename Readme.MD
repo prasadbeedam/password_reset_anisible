@@ -38,10 +38,9 @@ vim /etc/ansible/hosts
 
 vim /etc/ansible/ansible.cfg (uncomment 14 & 22)
 
-=================================================================
-
 
 SSH CONNECTIONS: ANSIBLE SERVER
+==========================================================================
 
 ssh-keygen  --- > 4 ENTERS
 
