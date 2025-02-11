@@ -1,5 +1,7 @@
 SETUP:
+''''''''''''''''''''''''''''''''''''''
 ALL SERVERS: to communicate with all servers
+
 hostnamectl set-hostname
 sudo -i
 passwd root
