@@ -1,5 +1,6 @@
 SETUP:
 ===================================================================
+
 ALL SERVERS: to communicate with all servers
 
 hostnamectl set-hostname
@@ -15,6 +16,7 @@ systemctl status sshd
 ANSIBLE SERVER:
 
 ====================================================================
+
 amazon-linux-extras install ansible2 -y
 yum install python python-pip python-level -y
 vim /etc/ansible/hosts
@@ -30,6 +32,7 @@ vim /etc/ansible/hosts
 vim /etc/ansible/ansible.cfg (uncomment 14 & 22)
 
 =================================================================
+
 
 SSH CONNECTIONS: ANSIBLE SERVER
 
