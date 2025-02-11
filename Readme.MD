@@ -18,9 +18,8 @@ vim /etc/ssh/sshd_config
 systemctl restart sshd
 
 systemctl status sshd
-====================================================================
-ANSIBLE SERVER:
 
+ANSIBLE SERVER:
 ====================================================================
 
 amazon-linux-extras install ansible2 -y
