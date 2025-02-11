@@ -29,17 +29,13 @@ yum install python python-pip python-level -y
 
 vim /etc/ansible/hosts
 
-[dev]
+[servers]
 
-172.31.86.81
+172.31.92.91 new_pass=Password8955
 
-172.31.82.63
+172.31.95.21 new_pass=Password8889
 
-[test]
-
-172.31.95.156
-
-172.31.83.100
+172.31.82.94 new_pass=Password8999
 
 vim /etc/ansible/ansible.cfg (uncomment 14 & 22)
 
