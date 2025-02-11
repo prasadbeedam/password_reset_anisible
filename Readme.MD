@@ -57,3 +57,5 @@ Note: If you do not log out and try to connect to the new server it won't connec
 Connect all the servers in this way
 
 cd .ssh --- > cat known_hosts     >>>> To show list of worker node's 
+
+ansible-playbook reset_password.yml        >>>>>>>>>>>>>>>>>> run >>>>>>>>>>>>>>>>>>>
